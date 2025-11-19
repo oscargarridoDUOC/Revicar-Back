@@ -1,12 +1,12 @@
-package com.example.revicar.service;
+package com.example.Revicar.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.revicar.model.Marca;
-import com.example.revicar.repository.MarcaRepository;
+import com.example.Revicar.model.Marca;
+import com.example.Revicar.repository.MarcaRepository;
 
 @Service
 public class MarcaService {

@@ -1,12 +1,12 @@
-package com.example.revicar.service;
+package com.example.Revicar.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.revicar.model.Modelo;
-import com.example.revicar.repository.ModeloRepository;
+import com.example.Revicar.model.Modelo;
+import com.example.Revicar.repository.ModeloRepository;
 
 @Service
 public class ModeloService {

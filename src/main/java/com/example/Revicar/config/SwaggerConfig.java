@@ -1,4 +1,5 @@
-package com.example.revicar.config;
+package com.example.Revicar.config;
+import org.aspectj.apache.bcel.classfile.Module.Open;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -12,7 +13,7 @@ public class SwaggerConfig {
 
 
    @Bean
-   public OpenAPI customOpenAPI(){
+   public Open customOpenAPI(){
        return new OpenAPI().info(
            new Info()
            .title("API demo")

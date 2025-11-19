@@ -1,4 +1,4 @@
-package com.example.revicar.controller;
+package com.example.Revicar.controller;
 
 import java.util.List;
 
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.revicar.model.Marca;
-import com.example.revicar.service.MarcaService;
+import com.example.Revicar.model.Marca;
+import com.example.Revicar.service.MarcaService;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.parameters.RequestBody;

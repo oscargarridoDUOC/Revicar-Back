@@ -1,8 +1,8 @@
-package com.example.revicar.repository;
+package com.example.Revicar.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.example.revicar.model.Marca;
+import com.example.Revicar.model.Marca;
 
 public interface MarcaRepository extends JpaRepository<Marca, Integer>{
 

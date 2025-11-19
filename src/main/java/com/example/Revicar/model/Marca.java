@@ -1,4 +1,4 @@
-package com.example.revicar.model;
+package com.example.Revicar.model;
 
 
 
